@@ -4,7 +4,7 @@ use \Codeception\Step\Argument\PasswordArgument;
 use Codeception\Exception\ModuleException;
 
 
-class SigninCest
+class LoginCest
 {
 
     public function _before(AcceptanceTester $I)
@@ -14,6 +14,7 @@ class SigninCest
 
     public function _after(AcceptanceTester $I)
     {
+
     }
 
 
@@ -26,9 +27,10 @@ class SigninCest
 
     }
 
+
     public function loginWithCorrectCredentials(AcceptanceTester $I){
         $I->loadPage('lt/login');
-        $I->loginwithCredentials('correctUsername', 'CorrectPassword');
+        $I->loginwithCredentials('correctUsername', 'correctPassword');
         $I->dontSee('Neteisingai įvesti duomenys');
         $I->SeeInCurrentUrl('account-overview');
     }

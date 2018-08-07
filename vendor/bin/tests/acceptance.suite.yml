@@ -8,7 +8,7 @@ actor: AcceptanceTester
 modules:
     enabled:
         - WebDriver:
-            url:
+            url: Url
             browser: chrome
         - \Helper\Acceptance
         - Asserts

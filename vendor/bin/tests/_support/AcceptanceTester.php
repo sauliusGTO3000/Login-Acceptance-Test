@@ -28,8 +28,9 @@ class AcceptanceTester extends \Codeception\Actor
         $I->wantTo('Test if page was loaded correctly');
         $I->amOnPage($path);
         $I->dontSeeElement('.error404');
-        $I->dontSee('error');
-        $I->dontSee('failed');
+        $I->see("Prisijunkite");
+
+
     }
 
     function loginwithCredentials($username, $password){
