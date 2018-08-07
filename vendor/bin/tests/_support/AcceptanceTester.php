@@ -23,4 +23,25 @@ class AcceptanceTester extends \Codeception\Actor
    /**
     * Define custom actions here
     */
+    function loadPage($path) {
+        $I = $this;
+        $I->wantTo('Test if page was loaded correctly');
+        $I->amOnPage($path);
+        $I->dontSeeElement('.error404');
+        $I->dontSee('error');
+        $I->dontSee('failed');
+    }
+
+    function loginwithCredentials($username, $password){
+        $I = $this;
+        $I->wantTo('Test login with false credentials');
+        $I->submitForm(['name'=>'authenticationForm'], array(
+            'username' => $username,
+            'password' => $password,
+        ));
+        $I->wait(3);
+    }
+
+
+
 }
