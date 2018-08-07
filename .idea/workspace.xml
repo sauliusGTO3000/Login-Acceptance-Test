@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1645845e-69b8-4a4a-9bae-efd2aa403af5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_support/AcceptanceTester.php" afterPath="$PROJECT_DIR$/vendor/bin/tests/_support/AcceptanceTester.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_support/_generated/AcceptanceTesterActions.php" afterPath="$PROJECT_DIR$/vendor/bin/tests/_support/_generated/AcceptanceTesterActions.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/acceptance.suite.yml" afterPath="$PROJECT_DIR$/vendor/bin/tests/acceptance.suite.yml" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/functional.suite.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/unit.suite.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/sauliauserrorai.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.loginWithCorrectCredentials.fail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.loginWithCorrectCredentials.fail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.loginWithIncorrectCredentials.fail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.loginWithIncorrectCredentials.fail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.testLoginWithCorrectCredentials.fail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.testLoginWithCorrectCredentials.fail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.testMe.fail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/_output/SigninCest.testMe.fail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php" afterPath="$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SigninCest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SigninCest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="600">
+              <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
               <folding>
                 <element signature="e#7#55#0#PHP" expanded="true" />
               </folding>
@@ -75,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codeception.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="codeception.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/bin/codeception.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -96,8 +88,8 @@
         <option value="$PROJECT_DIR$/vendor/bin/tests/unit.suite.yml" />
         <option value="$PROJECT_DIR$/vendor/bin/tests/_support/Helper/Acceptance.php" />
         <option value="$PROJECT_DIR$/vendor/bin/tests/_support/AcceptanceTester.php" />
-        <option value="$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php" />
         <option value="$PROJECT_DIR$/vendor/bin/tests/acceptance.suite.yml" />
+        <option value="$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php" />
       </list>
     </option>
   </component>
@@ -283,12 +275,12 @@
       <updated>1533627630736</updated>
       <workItem from="1533627634715" duration="2708000" />
       <workItem from="1533632194186" duration="19976000" />
-      <workItem from="1533659051361" duration="235000" />
+      <workItem from="1533659051361" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22919000" />
+    <option name="totallyTimeSpent" value="23104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -411,14 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/codeception.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bin/sauliauserrorai.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -426,10 +410,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/_support/Helper/Acceptance.php">
+    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="30" column="68" lean-forward="false" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+          <folding>
+            <element signature="e#7#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/_support/AcceptanceTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -442,21 +436,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/_support/AcceptanceTester.php">
+    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/_support/Helper/Acceptance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/tests/acceptance/SigninCest.php">
+    <entry file="file://$PROJECT_DIR$/vendor/bin/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="e#7#55#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

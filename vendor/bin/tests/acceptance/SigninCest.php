@@ -28,7 +28,7 @@ class SigninCest
 
     public function loginWithCorrectCredentials(AcceptanceTester $I){
         $I->loadPage('lt/login');
-        $I->loginwithCredentials('sauliusgto3000@gmail.com', 'Saulius2020');
+        $I->loginwithCredentials('correctUsername', 'CorrectPassword');
         $I->dontSee('Neteisingai įvesti duomenys');
         $I->SeeInCurrentUrl('account-overview');
     }
