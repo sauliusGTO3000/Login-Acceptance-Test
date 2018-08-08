@@ -9,5 +9,5 @@
 
 			  File 'Login-Acceptance-Test\vendor\bin\tests\acceptance.suite.yml', line 11:
 				change Url to main page of the system
-
-    		4. Run the test using 'Login-Acceptance-Test\vendor\bin>codecept run'
+		
+		4. Run the test using 'Login-Acceptance-Test\vendor\bin>codecept run'
